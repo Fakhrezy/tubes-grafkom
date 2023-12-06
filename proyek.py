@@ -166,7 +166,7 @@ def draw():
     glTranslatef(0.5, 0.5, 0.0)
     draw_moon(radius=0.2)
 
-    # Gambar gunung pertama (ukuran sama dengan gunung kedua)
+    # Gambar gunung pertama 
     glLoadIdentity()
     glTranslatef(-0.5, -0.5, 0.0)
     draw_mountains(scale=0.75)
@@ -175,12 +175,12 @@ def draw():
     glLoadIdentity()
     draw_ground()
 
-    # Gambar gunung kedua (ukuran lebih kecil)
+    # Gambar gunung kedua 
     glLoadIdentity()
     glTranslatef(0.5, -0.5, 0.0)
     draw_mountains(scale=0.5)
 
-    # Gambar pohon pertama (lebih ke atas)
+    # Gambar pohon pertama 
     glLoadIdentity()
     glTranslatef(0.8, -0.5, 0.0)
     draw_tree()
@@ -189,7 +189,7 @@ def draw():
     glTranslatef(0.9, -0.6, 0.0)
     draw_tree(0.5)
 
-    # Gambar pohon kedua (lebih kecil dan lebih rendah)
+    # Gambar pohon kedua 
     glLoadIdentity()
     glTranslatef(-0.8, -0.4, 0.0)
     draw_tree(scale=0.6)
