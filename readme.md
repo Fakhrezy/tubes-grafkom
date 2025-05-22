@@ -1,0 +1,1 @@
+![Tampilan Sistem](grafkom.jpg)
